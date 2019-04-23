@@ -1,0 +1,226 @@
+body{
+  margin:0 0;
+}
+.container{
+  margin:0 auto;
+  .Header-middle{
+
+    color: white;
+    position: absolute;
+    top: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    left:0;
+    h1,h3{
+      text-align: center;
+      font-family: 'Dancing Script', cursive;
+      text-shadow: 1px 1px #637590
+    }
+    h1{
+      font-size: 46px;
+    }
+    h3{
+      font-size: 28px;
+    }
+  }
+  .content{
+
+    }
+    nav{
+      position: absolute;
+      top: 5px;
+    }
+    ul{
+
+      li{
+        display: inline-block;
+        margin:0 50px;
+        list-style-type: none;
+        a{
+          font-family: 'Lato', sans-serif;
+          text-decoration: none;
+          color: white;
+      }
+     }
+    }
+   }
+main{
+  background-color: #94BADF;
+  margin:0 auto;
+  margin-top: -4px;
+
+   .box{
+     position: relative;
+     z-index: 1;
+     margin-top: -100px;
+     background-color: white;
+     padding-left: 0;
+     padding-right: 0;
+     h2{
+     font-family: 'Dancing Script', cursive;
+     text-align: center;
+     color: #6387BB;
+     font-size: 40px;
+     text-shadow: 1px 1px #9EB5D5;
+
+     }
+     .row{
+      padding-left: 15px;
+      padding-right: 15px;
+        .pricetag{
+                      &.one{
+                  width: 70px;
+                  z-index: 1;
+                  position: relative;
+                  top: -426px;
+                  right: 10px;
+                  text-align: center;
+                  padding-top: 5px;
+                  padding-bottom: 5px;
+                  color: white;
+                  border-radius: 5px;
+                }
+                  &.two{
+                    width: 70px;
+              z-index: 1;
+              position: relative;
+              top: -358px;
+              right: 10px;
+              text-align: center;
+              padding-top: 5px;
+              padding-bottom: 5px;
+              color: white;
+              border-radius: 5px;
+                  }
+                  &.three{
+              width: 70px;
+              z-index: 1;
+              position: relative;
+              top: -358px;
+              right: 10px;
+              text-align: center;
+              padding-top: 5px;
+              padding-bottom: 5px;
+              color: white;
+              border-radius: 5px;
+                  }
+                  &.four{
+              width: 70px;
+              z-index: 1;
+              position: relative;
+              top: -358px;
+              right: 10px;
+              text-align: center;
+              padding-top: 5px;
+              padding-bottom: 5px;
+              color: white;
+              border-radius: 5px;
+              }&.five{
+              width: 70px;
+              z-index: 1;
+              position: relative;
+              top: -426px;
+              right: 10px;
+              text-align: center;
+              padding-top: 5px;
+              padding-bottom: 5px;
+              color: white;
+              border-radius: 5px;
+              }&.six{
+              width: 70px;
+              z-index: 1;
+              position: relative;
+              top: -358px;
+              right: 10px;
+              text-align: center;
+              padding-top: 5px;
+              padding-bottom: 5px;
+              color: white;
+              border-radius: 5px;
+                  }
+
+
+          /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bfd255+0,8eb92a+50,72aa00+50,9ecb2d+78 */
+            background: #bfd255; /* Old browsers */
+            background: -moz-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 50%, #9ecb2d 78%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, #bfd255 0%,#8eb92a 50%,#72aa00 50%,#9ecb2d 78%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, #bfd255 0%,#8eb92a 50%,#72aa00 50%,#9ecb2d 78%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=0 ); /* IE6-9 */
+                    }
+
+       .item{
+         border:solid 1px #DEDEDE;
+         margin-top: 10px;
+         height: 97%;
+
+         h4{
+           font-family: 'Dancing Script', cursive;
+           text-align: center;
+           color: #A8C643;
+           font-size:27px;
+         }
+           h5{
+             font-family: 'Lato', sans-serif;
+             font-size: 18px;
+             text-align: left;
+             color: #B9B9B9;
+             font-weight: 600;
+
+             margin: 15px 15px;
+           }
+           p{
+             color: #A7C540;
+            padding-left: 15px;
+            font-family: 'Lato', sans-serif;
+           }
+         img{
+           width: 100%;
+         }
+     }
+
+     }
+   }
+   .upperbox{
+     background-color: #4D74A7;
+     color: #739AC5;
+     margin: 0 0;
+     padding: 3px 70px;
+     font-family: 'Lato', sans-serif;
+     font-size: 25px;
+
+
+   }
+}
+footer{
+  background-color: #94BADF;
+  margin: 0 0;
+  width: 100%;
+  padding-bottom: 50px;
+  .container{
+    text-align: center;
+    color: white;
+    font-family: "Lato";
+    padding-top: 5px;
+    p{
+      padding-top: 10px;
+    }
+  }
+  .nav{
+    padding-top: 100px;
+    text-align: center;
+    li{
+      display: inline-block;
+       margin: 0 50px;
+       a{
+         text-decoration: none;
+         font-family: 'Lato', sans-serif;
+
+         color: white;
+       }
+    }
+
+  }
+
+}
